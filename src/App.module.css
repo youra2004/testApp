@@ -1,0 +1,93 @@
+.wheather {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+.cityCard {
+  border-radius: 12px;
+  padding: 20px 50px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 8px 8px 5px gray, 1px 1px 4px gray;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+.cityCard:hover {
+  transform: translateY(-20px);
+}
+.citiesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.cityName {
+  font-size: 20px;
+  font-weight: bold;
+}
+.date {
+  font-size: 10px;
+  color: gray;
+}
+.aboutWeather {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.infoWheater {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.aboutWeather p {
+  margin: 0;
+  text-align: center;
+}
+.wheatherType {
+  color: gray;
+  padding-bottom: 5px;
+}
+.cityTemp {
+  font-size: 36px;
+}
+.buttonsBlock {
+  display: flex;
+  column-gap: 5px;
+}
+.refreshButton,
+.addButton,
+.deletehButton {
+  height: 35px;
+  padding: 0px 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+  transition: all 500ms ease;
+}
+.refreshButton:hover,
+.addButton:hover,
+.deletehButton:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.addBlock {
+  margin-bottom: 30px;
+}
+.addInput {
+  height: 35px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+.addButton {
+  cursor: pointer;
+  margin-left: 30px;
+}

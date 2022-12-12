@@ -1,0 +1,48 @@
+.cityContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  width: 80%;
+  margin-left: 10%;
+}
+.allDetail {
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  gap: 20px;
+}
+.basicBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 170px;
+  box-shadow: 8px 8px 5px gray, 1px 1px 10px gray;
+  padding-left: 10px;
+  border-radius: 12px;
+  transition: all 500ms ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.basicBlock:hover {
+  background-color: black;
+  color: white;
+}
+.backBtn {
+}
+.backBtn,
+.backBtn,
+.backBtn {
+  height: 35px;
+  margin-top: 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  transition: all 500ms ease;
+}
+.backBtn:hover,
+.backBtn:hover,
+.backBtn:hover {
+  background-color: black;
+  color: white;
+}
